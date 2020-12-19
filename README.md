@@ -14,36 +14,36 @@ Beispiele und Dokumentation zum IoTKit V3 und V4 Board bzw. Shield.
 * [Hardware](hw/)
 * [Software und Installation](sw/)
 * [Kleine C/C++ Einführung](ccpp/)
-* [GPIO](https://github.com/iotkitv4/gpio.git)
+* [GPIO](https://github.com/iotkitv4/gpio)
 * [Das Konfigurationssystem (GPIO Belegungen)](config/)
-* [Sensoren](sensors/)
-* [Aktoren](actors/)
+* [Sensoren](https://github.com/iotkitv4/sensors)
+* [Aktoren](https://github.com/iotkitv4/actors)
 
 ## Bus Systeme
 
-* [UART](uart/)
-* [I²C/TWI](i2c/)
-* [SPI](spi/)
+* [UART](https://github.com/iotkitv4/uart)
+* [I²C/TWI](https://github.com/iotkitv4/i2c)
+* [SPI](https://github.com/iotkitv4/spi)
 
 ## WLAN (WiFi) / Bluetooth
 
-* [WLAN (WiFi)](wlan/)
-* [Bluetooth](bluetooth/)
+* [WLAN (WiFi)](https://github.com/iotkitv4/wlan)
+* [Bluetooth](https://github.com/iotkitv4/bluetooth)
 
 ### Internet IoT Protokolle
 
-* [Sockets (TCP/UDP)](tcpip/)
-* [HTTP](http/)
-* [MQTT](mqtt/)
-* [CoAP](coap/)
+* [Sockets (TCP/UDP)](https://github.com/iotkitv4/tcpip)
+* [HTTP](https://github.com/iotkitv4/http)
+* [MQTT](https://github.com/iotkitv4/mqtt)
+* [CoAP](https://github.com/iotkitv4/coap)
 
 ## Anwendungen
 
-* [Cloud Dienste](cloud/) wie IFTTT, Yahoo Weather
+* [Cloud Dienste](https://github.com/iotkitv4/cloud) wie IFTTT, Yahoo Weather
 * [LAM (Linux, Apache, MySQL) Server](LAM/)
 * [Industrie V4.0](industrieV4/)
 * [Roboter](roboter/)
-* [NFC / RFID](rfid/)
+* [NFC / RFID](https://github.com/iotkitv4/rfid)
 * [Workflow](workflow/)
 * [Edge Computing](edge/)
 * [Built with Mbed](https://www.mbed.com/built-with-mbed/)
@@ -52,7 +52,7 @@ Beispiele und Dokumentation zum IoTKit V3 und V4 Board bzw. Shield.
 
 Für die nachfolgenden Erweiterten Beispiele wird evtl. zusätzliche HW, wie z.B. ein Data Logging Shield, benötigt.
 
-* [Speicher APIs](storage/)
+* [Speicher APIs](https://github.com/iotkitv4/storage)
 
 ## Kurse und Weiterbildung auf Zertifikatsstufe CAS
 
