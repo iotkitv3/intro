@@ -28,12 +28,12 @@ Beispiele und Dokumentation zum IoTKit V3 und V4 Board bzw. Shield.
 ## WLAN (WiFi) / Bluetooth
 
 * [WLAN (WiFi)](https://github.com/iotkitv4/wlan)
-* [Bluetooth](https://github.com/mc-b/IoTKitV3/tree/master/bluetooth) - nur MBED OS 5
+* [Bluetooth](https://github.com/mc-b/IoTKitV3/tree/master/bluetooth) - **MBED OS 5**
 
 ### Internet IoT Protokolle
 
 * [Sockets (TCP/UDP)](tcpip/)
-* [HTTP und REST](https://github.com/iotkitv4/http)
+* [HTTP und REST](https://github.com/iotkitv4/http) - **MBED OS 5**
 * [MQTT](https://github.com/iotkitv4/mqtt)
 * [CoAP](coap/)
 
@@ -49,7 +49,7 @@ Beispiele und Dokumentation zum IoTKit V3 und V4 Board bzw. Shield.
 
 Für die nachfolgenden Beispiele wird evtl. zusätzliche HW, wie z.B. ein Data Logging Shield, benötigt.
 
-* [Speicher APIs](https://github.com/iotkitv4/storage)
+* [Speicher APIs](storage/)
 
 ## Kurse und Weiterbildung 
 
