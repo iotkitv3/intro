@@ -28,21 +28,20 @@ Beispiele und Dokumentation zum IoTKit V3 und V4 Board bzw. Shield.
 ## WLAN (WiFi) / Bluetooth
 
 * [WLAN (WiFi)](https://github.com/iotkitv4/wlan)
-* [Bluetooth](https://github.com/mc-b/IoTKitV3/tree/master/bluetooth) - **MBED OS 5**
+* [Bluetooth](https://github.com/mc-b/IoTKitV3/tree/master/bluetooth) - (**MBED OS 5**)
 
 ### Internet IoT Protokolle
 
 * [Sockets (TCP/UDP)](tcpip/)
-* [HTTP und REST](https://github.com/iotkitv4/http) - **MBED OS 5**
-* [MQTT](https://github.com/iotkitv4/mqtt)
+* [HTTP und REST inkl. Node-RED](https://github.com/iotkitv4/http) - (**MBED OS 5**)
+* [MQTT inkl. Node-RED](https://github.com/iotkitv4/mqtt)
 * [CoAP](coap/)
 
 ## Anwendungen
 
-* [Cloud Dienste](https://github.com/iotkitv4/cloud) wie IFTTT, Yahoo Weather
 * [NFC / RFID](https://github.com/iotkitv4/rfid)
-* [Workflow mit Node-RED](workflow/)
 * [Edge Computing](edge/)
+* [Cloud Anbindung](https://github.com/iotkitv4/cloud) an Amazon (AWS), Google und Microsoft (Azure).
 * [Built with Mbed](https://www.mbed.com/built-with-mbed/)
 
 ## Erweiterungen
