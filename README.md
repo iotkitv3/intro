@@ -40,8 +40,8 @@ Beispiele und Dokumentation zum IoTKit V3 und V4 Board bzw. Shield.
 ## Anwendungen
 
 * [NFC / RFID](https://github.com/iotkitv4/rfid)
-* [Edge Computing](edge/)
 * [Cloud Anbindung](https://github.com/iotkitv4/cloud) an Amazon (AWS), Google und Microsoft (Azure).
+* [Edge Computing](https://github.com/iotkitv4/edge)
 * [Built with Mbed](https://www.mbed.com/built-with-mbed/)
 
 ## Erweiterungen
