@@ -7,11 +7,16 @@ Der Internet der Dinge Kit V3 besteht aus mehreren Boards, die mit den Beispiele
 
 Es sind das 
 * [IoTKitV3 K64F](#iotkitv3-k64f) - das eigens für das IoTKit entwickelte Board, basierend auf einen [NXP FRDM-K64F Board](https://os.mbed.com/platforms/FRDM-K64F/). 
-* Ein [DISCO-L475VG-IOT01A](#DISCO-L475VG-IOT01A) Board mit einem zusätzlichen Shield, welches die fehlenden Treiber für Motoren etc. enthält.
+* [DISCO-L475VG-IOT01A](#DISCO-L475VG-IOT01A) Board 
+* [NUCLEO-F303RE](#NUCLEO-F303RE) Board 
 
-Und zusätzliche [Komponenten](#zubehör) wie Motoren, LED Streifen, Sensoren etc.
+Die letzten zwei Board werden durch einen, für das IoTKitV3 entwickelten, Shield ergänzt. Dieser enthält neben einem OLED Display einen Hall Sensor und Treiber für Motoren.
 
-Beide Boards können einzeln oder parallel verwendet werden.
+Zusätzlich liegen dem IoTKitV3 externe [Komponenten](#zubehör) wie Motoren, LED Streifen, Sensoren etc. bei.
+
+Alle Boards können einzeln oder parallel verwendet werden. 
+
+Daneben sollten alle [mbed Boards](https://os.mbed.com/platforms/?q=&Mbed+OS+support=Mbed+OS+6.6), welche ab Mbed OS Version 6.6 unterstützen, funktionieren.
 
 ## IoTKitV3 K64F
 ***
@@ -32,42 +37,42 @@ Entstanden ist das Board durch die Kombination des [NXP FRDM-K64F Board](https:/
 
 #### Board features
 
-* [Bluetooth® V4.1 module (SPBTLE-RF)](../bluetooth/)
-* [Proximity sensor, gesture and ambient light sensing (ALS) module (VL6180X)](../i2c#vl6180x)
-* [low power, high sensitivity, RED, GREEN and BLUE color light sensor (RGB)](../i2c#ISL29125)
+* [Bluetooth® V4.1 module (SPBTLE-RF)](https://github.com/iotkitv3/bluetooth/)
+* [Proximity sensor, gesture and ambient light sensing (ALS) module (VL6180X)](https://github.com/iotkitv3/i2c#vl6180x)
+* [low power, high sensitivity, RED, GREEN and BLUE color light sensor (RGB)](https://github.com/iotkitv3/i2c#ISL29125)
 * [Hall Sensor](../sensors#Hall-Sensor)
 * [NFC/RFID Reader](../rfid/)
-* [Capacitive digital sensor for relative humidity and temperature (HTS221)](../i2c#hts221)
-* [High-performance 3-axis magnetometer (LIS3MDL)](../i2c#lis3mdl)
-* [3D accelerometer and 3D gyroscope (LSM6DSL)](../i2c#LSM6DSL)
-* [Wi-Fi® module ESP8266](../wlan)
+* [Capacitive digital sensor for relative humidity and temperature (HTS221)](https://github.com/iotkitv3/i2c#hts221)
+* [High-performance 3-axis magnetometer (LIS3MDL)](https://github.com/iotkitv3/i2c#lis3mdl)
+* [3D accelerometer and 3D gyroscope (LSM6DSL)](https://github.com/iotkitv3/i2c#LSM6DSL)
+* [Wi-Fi® module ESP8266](https://github.com/iotkitv3/wlan)
 
 
 * OpenSDA USB Debug and Programming adapter
 * Reset Button
-* [SPI Header](../spi/)
-* [GND/5V/Signal Arduino Pins D13 - D2](../gpio/)
-* [I2C Header](../i2c/)
-* [MOSFet](../actors)
+* [SPI Header](https://github.com/iotkitv3/spi/)
+* [GND/5V/Signal Arduino Pins D13 - D2](https://github.com/iotkitv3/gpio/)
+* [I2C Header](https://github.com/iotkitv3/i2c/)
+* [MOSFet](https://github.com/iotkitv3/actors)
 * Expansion connectors: Arduino™ Uno V3
 * [SWDAP](https://os.mbed.com/teams/mbed/wiki/SWDAP)
 * [ARM Cortex M4 K64F MCU](https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/k-seriesperformancem4/k6x-ethernet/kinetis-k64-120-mhz-256kb-sram-microcontrollers-mcus-based-on-arm-cortex-m4-core:K64_120)
 * [Grove Header](http://wiki.seeedstudio.com/Grove_System/)
 * OLED Display
-* [4 LED an GPIO D10 - D13](../gpio#DigitalOut)
+* [4 LED an GPIO D10 - D13](https://github.com/iotkitv3/gpio#DigitalOut)
 
 
-* [H-Bridge](../actors/)
-* [Buzzer](../gpio/)
-* [Stepper Driver](../actors/)
+* [H-Bridge](https://github.com/iotkitv3/actors/)
+* [Buzzer](https://github.com/iotkitv3/gpio/)
+* [Stepper Driver](https://github.com/iotkitv3/actors/)
 
 
 * 12 Volt Power Supply
 * Charger 5V from batt.
-* [GND/5V/Signal Arduino Pins A0 - A5](../gpio/)
-* [UART Header](../uart/)
+* [GND/5V/Signal Arduino Pins A0 - A5](https://github.com/iotkitv3/gpio/)
+* [UART Header](https://github.com/iotkitv3/uart/)
 
-* [Encoder Switch](../gpio)
+* [Encoder Switch](https://github.com/iotkitv3/gpio)
 
 ## DISCO-L475VG-IOT01A
 ***
@@ -94,15 +99,15 @@ Internet der Dinge Disco L475VG Board
 * 64-Mbit Quad-SPI (Macronix) Flash memory
 * Bluetooth® V4.1 module (SPBTLE-RF)
 * Sub-GHz (868 or 915 MHz) low-power-programmable RF module (SPSGRF-868 or SPSGRF-915)
-* [Wi-Fi® module Inventek ISM43362-M3G-L44 (802.11 b/g/n compliant)](../wlan)
+* [Wi-Fi® module Inventek ISM43362-M3G-L44 (802.11 b/g/n compliant)](https://github.com/iotkitv3/wlan)
 * Dynamic NFC tag based on M24SR with its printed NFC antenna
 * 2 digital omnidirectional microphones (MP34DT01)
-* [Capacitive digital sensor for relative humidity and temperature (HTS221)](../i2c#HTS221)
-* [High-performance 3-axis magnetometer (LIS3MDL)](../i2c#LIS3MDL)
-* [3D accelerometer and 3D gyroscope (LSM6DSL)](../i2c#LSM6DSL)
+* [Capacitive digital sensor for relative humidity and temperature (HTS221)](https://github.com/iotkitv3/i2c#HTS221)
+* [High-performance 3-axis magnetometer (LIS3MDL)](https://github.com/iotkitv3/i2c#LIS3MDL)
+* [3D accelerometer and 3D gyroscope (LSM6DSL)](https://github.com/iotkitv3/i2c#LSM6DSL)
 * 260-1260 hPa absolute digital output barometer (LPS22HB)
-* [Time-of-Flight and gesture-detection sensor (VL53L0X)](../i2c#VL53L0X)
-* [2 push-buttons (user and reset)](../gpio)
+* [Time-of-Flight and gesture-detection sensor (VL53L0X)](https://github.com/iotkitv3/i2c#VL53L0X)
+* [2 push-buttons (user and reset)](https://github.com/iotkitv3/gpio)
 * USB OTG FS with Micro-AB connector
 * Expansion connectors:
 * Arduino™ Uno V3

@@ -67,7 +67,7 @@ Beispiel Klassen und Programmbibliotheken (Libraries)
 ![](../images/ObjectLibrary.png) 
 
 * [mbed-os](https://github.com/ARMmbed/mbed-os/) ist eine Programmbibliothek (Library) welche die Grundklassen der mbed Plattform beinhaltet
-* [IoTKit](https://os.mbed.com/teams/IoTKitV3/code/IoTKit/) ist die Programbibliothek des IoTKits mit u.a. Definition der [IoTKits-Pins](https://os.mbed.com/teams/IoTKitV3/code/IoTKit/file/4bf5081be024/mbed_lib.json/).
+* [IoTKit](https://github.com/iotkitv3/iotkit) ist die Programbibliothek des IoTKits mit u.a. Definition der [IoTKits-Pins](https://github.com/iotkitv3/iotkit/blob/main/mbed_lib.json).
 * [AnalogIn](https://os.mbed.com/docs/mbed-os/latest/apis/analogin.html), [DigitalOut](https://os.mbed.com/docs/mbed-os/latest/apis/digitalout.html) etc. sind Klassen.
 
 Weitere Beispiele siehe [mbed Komponenten Verzeichnis](http://developer.mbed.org/components/)
@@ -269,7 +269,7 @@ Folgender Aufbau hat sich für embedded Systeme bewährt
     #include "mbed.h"       
     
     // Definition der verwendeten Objekte 
-    DigitalOut led(LED_RED);
+    DigitalOut led( LED1 );
     
     /** Hauptprogramm */
     int main()
@@ -277,7 +277,7 @@ Folgender Aufbau hat sich für embedded Systeme bewährt
         while ( 1 ) 
         {
             led = !led;     // LED Wert umkehren (0 oder 1)
-            wait ( 0.2f );  // warte 0.2 Sekunden
+            thread_sleep_for ( 200 );  // warte 200 Millisekunden
         }
     }
 
