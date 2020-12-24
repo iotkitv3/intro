@@ -53,7 +53,7 @@ Das [IoTKitV3 K64F](https://github.com/iotkitv3/intro/tree/main/hw#iotkitv3-k64f
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
-![](https://raw.githubusercontent.com/iotkitv3/intro/main/images/ImportProgramm.png)
+![](https://raw.githubusercontent.com/iotkitv3/intro/main/images/ImportProgram.png)
 
 - - -
 
