@@ -12,6 +12,7 @@ Software
     * [Arm Mbed Online Compiler](https://os.mbed.com/docs/mbed-os/latest/quick-start/build-with-the-online-compiler.html)
     * [mbed CLI](https://os.mbed.com/docs/mbed-os/v6.6/build-tools/mbed-cli-2.html) - nur für Erfahrene Nutzer
 * [Beispiele](#beispiele)
+* [Programmbibliotheken (Libraries)](#libraries)
 * [Serielle Kommunikation](#serielle-kommunikation) **wird für Ausgabe von Debug Informationen benötigt!**
 
 ## Betriebssystem
@@ -57,7 +58,7 @@ Das [IoTKitV3 K64F](https://github.com/iotkitv3/intro/tree/main/hw#iotkitv3-k64f
 
 - - -
 
-Die Beispiele sind in der GitHub Organisation [iotkitv3](https://github.com/iotkitv3) zusammengefasst.
+Die Beispiele (Programme) sind in der GitHub Organisation [iotkitv3](https://github.com/iotkitv3) zusammengefasst.
 
 Und können mittels mittels File -> Import Programm importiert werden:
 
@@ -76,6 +77,27 @@ Und können mittels mittels File -> Import Programm importiert werden:
 Jedes Programm enthält eine `main.cpp` Datei mit dem eigentlichen Programm.
 
 Die weiteren Beispiele sind in der Datei `README.md` Beschrieben und können durch Überschreiben des Inhaltes (Copy & Paste) der Datei `main.cpp` ausprobiert werden.
+
+## Libraries
+***
+
+> [⇧ **Nach oben**](#inhaltsverzeichnis)
+
+![](https://raw.githubusercontent.com/iotkitv3/intro/main/images/ImportLibrary.png)
+
+- - -
+
+Programmbibliotheken (Libraries) werden, von der mbed Plattform (IDE, Compiler), in Repositories gespeichert.
+
+Libraries können mittels der View `Libraries` dem aktiven Programm hinzugefügt werden.
+
+Das IoTKit verwendet u.a. folgende Libraries:
+* [IoTKit](https://github.com/iotkitv3/iotkit) ist die Programbibliothek des IoTKits mit u.a. Definition der [IoTKits-Pins](https://github.com/iotkitv3/iotkit/blob/main/mbed_lib.json).
+* [MFRC522 - RFID Reader ](https://github.com/iotkitv3/MFRC522)
+* [HTS221 - Temperatur und Luftfeuchtigkeit](http://os.mbed.com/teams/ST/code/HTS221)
+* [LSM6DSL - 3D accelerometer and 3D gyroscope ](https://github.com/iotkitv3/LSM6DSL)
+* [BMP180 - Temperatur und Luftdruck Sensor](https://github.com/iotkitv3/BMP180)
+* etc.
 
 ## Serielle Kommunikation
 ***
