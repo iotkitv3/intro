@@ -11,11 +11,11 @@ Beispiele und Dokumentation zum IoTKit V3 und V4 Board bzw. Shield.
 
 ## Grundlagen
 
-* [Hardware](hw/)
+* [Hardware](https://github.com/iotkitv4/iotkit)
 * [Software und Installation](sw/)
 * [Kleine C/C++ Einführung](ccpp/)
 * [GPIO](https://github.com/iotkitv4/gpio)
-* [Das Konfigurationssystem (GPIO Belegungen)](config/)
+* [Das Konfigurationssystem (GPIO Belegungen)](https://github.com/iotkitv4/iotkit/blob/main/Config.md)
 * [Sensoren](https://github.com/iotkitv4/sensors)
 * [Aktoren](https://github.com/iotkitv4/actors)
 
