@@ -3,8 +3,6 @@ IoTKitV3
 
 ![](images/IoTKit.png)
 
-IoTKit V3 Board
-
 - - -
 
 Beispiele und Dokumentation zum IoTKit V3 und V4 Board bzw. Shield. 
