@@ -69,7 +69,7 @@ Und können mittels mittels File -> Import Programm importiert werden:
 * [I²C/TWI](https://github.com/iotkitv4/i2c)
 * [SPI](https://github.com/iotkitv4/spi)
 * [WLAN (WiFi)](https://github.com/iotkitv4/wlan)
-* [HTTP und REST inkl. Node-RED](https://github.com/iotkitv4/http) - (**MBED OS 5**)
+* [HTTP und REST inkl. Node-RED](https://github.com/iotkitv4/http) 
 * [MQTT inkl. Node-RED](https://github.com/iotkitv4/mqtt)
 * [NFC / RFID](https://github.com/iotkitv4/rfid)
 * [Cloud Anbindung](https://github.com/iotkitv4/cloud) an Amazon (AWS), Google und Microsoft (Azure).
