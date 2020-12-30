@@ -35,12 +35,19 @@ Beispiele und Dokumentation zum IoTKit V3 und V4 Board bzw. Shield.
 * [MQTT inkl. Node-RED](https://github.com/iotkitv4/mqtt)
 * [CoAP](coap/)
 
-## Anwendungen
+## Anwendungen / Umsetzungen
 
 * [NFC / RFID](https://github.com/iotkitv4/rfid)
 * [Cloud Anbindung](https://github.com/iotkitv4/cloud) an Amazon (AWS), Google und Microsoft (Azure).
 * [Internet of Things – Machine Learning Fast Data Pipeline mit Docker/Kubernetes](https://github.com/iotkitv4/edge)
+
+## Externe Services und Beispiele
+
 * [Built with Mbed](https://www.mbed.com/built-with-mbed/)
+* [IoT Projekte der Eclipse Foundation](https://iot.eclipse.org/)
+* [Projekte an der TBZ Zürich im Rahmen des Modules 242](https://github.com/tbz-m242)
+* [Spracherkennung mit dem DISCO-L475VG-IOT Board](https://docs.edgeimpulse.com/docs/unboxing-the-st-b-l475e-iot01a)
+* [Übersicht IoT Plattformen](https://iot-analytics.com/iot-platform-comparison-how-providers-stack-up/)
 
 ## Erweiterungen
 
