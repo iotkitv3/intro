@@ -45,8 +45,9 @@ Beispiele und Dokumentation zum IoTKit V3 und V4 Board bzw. Shield.
 
 * [Built with Mbed](https://www.mbed.com/built-with-mbed/)
 * [IoT Projekte der Eclipse Foundation](https://iot.eclipse.org/)
-* [Projekte an der TBZ Zürich im Rahmen des Modules 242](https://github.com/tbz-m242)
 * [Spracherkennung mit dem DISCO-L475VG-IOT Board](https://docs.edgeimpulse.com/docs/unboxing-the-st-b-l475e-iot01a)
+* [Build Arm Cortex-M voice assistant with Google TensorFlow Lite](https://developer.arm.com/solutions/machine-learning-on-arm/developer-material/how-to-guides/build-arm-cortex-m-voice-assistant-with-google-tensorflow-lite)
+* [Projekte an der TBZ Zürich im Rahmen des Modules 242](https://github.com/tbz-m242)
 * [Übersicht IoT Plattformen](https://iot-analytics.com/iot-platform-comparison-how-providers-stack-up/)
 
 ## Erweiterungen
