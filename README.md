@@ -33,7 +33,7 @@ Beispiele und Dokumentation zum IoTKit V3 und V4 Board bzw. Shield.
 * [Sockets (TCP/UDP)](tcpip/)
 * [HTTP und REST inkl. Node-RED](https://github.com/iotkitv4/http) 
 * [MQTT inkl. Node-RED](https://github.com/iotkitv4/mqtt)
-* [CoAP](coap/)
+* [CoAP](coap/) und [LwM2M](https://github.com/iotkitv3/lwm2m)
 
 ## Anwendungen / Umsetzungen
 

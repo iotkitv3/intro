@@ -37,7 +37,7 @@ Komplettes Verzeichnis: [OMNA Lightweight M2M (LWM2M) Object & Resource Registry
 
 ### Beispiel(e)
 
-Ein Beispiel inkl. Anleitung findet man auf [Pelion](https://www.pelion.com/iot-device-management/), welches in mbed integriert ist.
+Ein Beispiel inkl. Anleitung findet man auf [Pelion](https://developer.pelion.com/guides/connect-device-to-pelion/), welches in mbed integriert ist.
 
 ### Links 
 
@@ -45,8 +45,7 @@ Ein Beispiel inkl. Anleitung findet man auf [Pelion](https://www.pelion.com/iot-
 * 	[ARM CoAP YouTube Tutorial](https://www.youtube.com/watch?v=4bSr5x5gKvA&list=PLgyFKd2HIZlZNsrWXyE4kgLDo_tyLpvDW&index=7)
 * 	[Eclipse Leshan YouTube Tutorial](https://www.youtube.com/watch?v=KZEi-Q7_EL0)
 *   [ARM CoAP Tutorial](http://community.arm.com/servlet/JiveServlet/previewBody/8633-102-2-15471/ARM%20CoAP%20Tutorial%20April%2030%202014.pdf)
-*   [mbed CoAP Beispiel (mbed V2)](https://os.mbed.com/components/Nanoservice/)
-*   [mbed Client (mbed OS V5)](https://www.mbed.com/en/platform/mbed-client/)
+*   [mbed Client](https://github.com/ARMmbed/mbed-os-example-pelion)
 *   [RFC 7252- COAP](https://tools.ietf.org/html/rfc7252)
 *   [RFC 6690 - Constrained RESTful Environments (CoRE) Link Format](https://tools.ietf.org/html/rfc6690)
 *   [RFC 5988 - Web Linking](https://tools.ietf.org/html/rfc5988)
